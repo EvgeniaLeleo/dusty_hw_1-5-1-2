@@ -1,0 +1,136 @@
+.page {
+  font-family: Helvetica, sans-serif;
+
+  margin: 0;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Tenor Sans', 'Times New Roman', serif;
+
+  max-width: 1100px;
+  min-width: 620px;
+  padding: 128px 100px 160px;
+  margin: auto;
+}
+
+.news-title {
+  align-self: flex-start;
+
+  color: #363348;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  margin: 0;
+}
+
+.news-wrapper {
+  margin-top: 54px;
+}
+
+.news-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 74px;
+
+  padding: 52px 0 52px;
+
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, transparent 0%, #dedee5 5%, #dedee5 95%, transparent 100%) 1 0;
+}
+
+.item-header {
+  color: #363348;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.43;
+}
+
+.item-tag-list {
+  display: inline-block;
+  list-style-type: none;
+
+  padding: 0;
+  margin: 0;
+}
+
+.item-tag {
+  display: inline-block;
+}
+
+.item-tag-link {
+  color: #e5b093;
+  text-decoration: none;
+}
+
+.item-text {
+  color: #34343f;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.18;
+
+  margin: 0;
+  margin-top: 24px;
+}
+
+.item-button {
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  padding: 20px 30px;
+
+  background: linear-gradient(314deg, #c88c61 0%, #ebbe9c 100%);
+  box-shadow: 0px 0px 10px 0px #e5b79a inset, #b98766 0 3px 0 -1px, rgba(185, 135, 102, 0.44) 0 0 30px 0;
+  border-radius: 20% / 300%;
+  border: none;
+
+  cursor: pointer;
+  transition: box-shadow 0.1s;
+}
+
+.item-button:hover {
+  box-shadow: 0px 0px 40px 0px #e5b79a inset, #b98766 0 3px 0 -1px, rgba(185, 135, 102, 0.44) 0 0 30px 0;
+}
+
+.item-button:active {
+  box-shadow: 0px 0px 30px 0px #e5b79a inset, #b98766 0 3px 0 -1px, rgba(185, 135, 102, 0.44) 0 0 30px 0;
+}
+
+.news-button {
+  font-family: Helvetica, sans-serif;
+  color: #ce946b;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  margin-top: 80px;
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.news-button:hover {
+  color: #bf865d;
+}
+
+.news-button:active {
+  color: #ce946b;
+}
