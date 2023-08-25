@@ -111,6 +111,15 @@
   border: none;
 
   cursor: pointer;
+  transition: color 0.1s;
+}
+
+.item-button:hover {
+  color: #fcf2ee;
+}
+
+.item-button:active {
+  color: #fff;
 }
 
 .news-button {
