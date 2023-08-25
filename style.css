@@ -102,23 +102,15 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 
-  padding: 20px 30px;
+  padding: 18px 30px;
 
-  background: linear-gradient(314deg, #c88c61 0%, #ebbe9c 100%);
-  box-shadow: 0px 0px 10px 0px #e5b79a inset, #b98766 0 3px 0 -1px, rgba(185, 135, 102, 0.44) 0 0 30px 0;
-  border-radius: 20% / 300%;
+  background: url('./images/button-bg.svg');
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
   border: none;
 
   cursor: pointer;
-  transition: box-shadow 0.1s;
-}
-
-.item-button:hover {
-  box-shadow: 0px 0px 40px 0px #e5b79a inset, #b98766 0 3px 0 -1px, rgba(185, 135, 102, 0.44) 0 0 30px 0;
-}
-
-.item-button:active {
-  box-shadow: 0px 0px 30px 0px #e5b79a inset, #b98766 0 3px 0 -1px, rgba(185, 135, 102, 0.44) 0 0 30px 0;
 }
 
 .news-button {
