@@ -71,6 +71,16 @@
 .item-tag-link {
   color: #e5b093;
   text-decoration: none;
+
+  transition: color 0.1s;
+}
+
+.item-tag-link:hover {
+  color: #d4a287;
+}
+
+.item-tag-link:active {
+  color: #e5b093;
 }
 
 .item-text {
